@@ -2,14 +2,14 @@
 name=CentOS-$releasever - Base
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
 #baseurl=http://mirror.centos.org/centos/$releasever/os/$basearch/
-baseurl=http://mirrors.psu.ac.th/pub/centos/$releasever/os/$basearch/
+baseurl=http://mirrors.bangmod.cloud/centos/$releasever/os/$basearch/
 [updates]
 name=CentOS-$releasever - Updates
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
 #baseurl=http://mirror.centos.org/centos/$releasever/updates/$basearch/
-baseurl=http://mirrors.psu.ac.th/pub/centos/$releasever/os/$basearch/
+baseurl=hhttp://mirrors.bangmod.cloud/centos/$releasever/os/$basearch/
 [extras]
 name=CentOS-$releasever - Extras
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
 #baseurl=http://mirror.centos.org/centos/$releasever/extras/$basearch/
-baseurl=http://mirrors.psu.ac.th/pub/centos/$releasever/os/$basearch/
+baseurl=http://mirrors.bangmod.cloud/centos/$releasever/os/$basearch/
