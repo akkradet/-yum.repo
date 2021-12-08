@@ -11,67 +11,62 @@
 #
 
 [base]
-name=CentOS-7 - Base - mirrors.nipa.cloud
+name=CentOS-7 - Base - mirrors.bangmod.cloud
 failovermethod=priority
-baseurl=http://mirrors.nipa.cloud/centos/$releasever/os/$basearch/
-        https://mirrors.bangmod.cloud/centos/$releasever/os/$basearch/
+baseurl=https://mirrors.bangmod.cloud/centos/$releasever/os/$basearch/
 		http://mirror1.ku.ac.th/centos/$releasever/os/$basearch/
 		http://mirrors.thzhost.com/centos/$releasever/os/$basearch/
 		http://mirrors.psu.ac.th/pub/centos/$releasever/os/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=os
 gpgcheck=1
-gpgkey=http://mirrors.nipa.cloud/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=https://mirrors.bangmod.cloud/centos/RPM-GPG-KEY-CentOS-7
 
 #released updates
 [updates]
-name=CentOS-7 - Updates - mirrors.nipa.cloud
+name=CentOS-7 - Updates - mirrors.bangmod.cloud
 failovermethod=priority
-baseurl=http://mirrors.nipa.cloud/centos/$releasever/updates/$basearch/
-        https://mirrors.bangmod.cloud/centos/$releasever/updates/$basearch/
+baseurl=https://mirrors.bangmod.cloud/centos/$releasever/updates/$basearch/
 		http://mirror1.ku.ac.th/centos/$releasever/updates/$basearch/
 		http://mirrors.thzhost.com/centos/$releasever/updates/$basearch/
 		http://mirrors.psu.ac.th/pub/centos/$releasever/updates/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=updates
 gpgcheck=1
-gpgkey=http://mirrors.nipa.cloud/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=https://mirrors.bangmod.cloud/centos/RPM-GPG-KEY-CentOS-7
 
 #additional packages that may be useful
 [extras]
-name=CentOS-7 - Extras - mirrors.nipa.cloud
+name=CentOS-7 - Extras - mirrors.bangmod.cloud
 failovermethod=priority
-baseurl=http://mirrors.nipa.cloud/centos/$releasever/extras/$basearch/
-        https://mirrors.bangmod.cloud/centos/$releasever/extras/$basearch/
+baseurl=https://mirrors.bangmod.cloud/centos/$releasever/extras/$basearch/
 		http://mirror1.ku.ac.th/centos/$releasever/extras/$basearch/
 		http://mirrors.thzhost.com/centos/$releasever/extras/$basearch/
 		http://mirrors.psu.ac.th/pub/centos/$releasever/extras/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$extras&repo=extras
 gpgcheck=1
-gpgkey=http://mirrors.nipa.cloud/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=https://mirrors.bangmod.cloud/centos/RPM-GPG-KEY-CentOS-7
 
 #additional packages that extend functionality of existing packages
 [centosplus]
-name=CentOS-7 - Plus - mirrors.nipa.cloud
+name=CentOS-7 - Plus - mirrors.bangmod.cloud
 failovermethod=priority
-baseurl=http://mirrors.nipa.cloud/centos/$releasever/centosplus/$basearch/
-        https://mirrors.bangmod.cloud/centos/$releasever/centosplus/$basearch/
+baseurl=https://mirrors.bangmod.cloud/centos/$releasever/centosplus/$basearch/
 		http://mirror1.ku.ac.th/centos/$releasever/centosplus/$basearch/
 		http://mirrors.thzhost.com/centos/$releasever/centosplus/$basearch/
 		http://mirrors.psu.ac.th/pub/centos/$releasever/centosplus/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=centosplus
 gpgcheck=1
 enabled=0
-gpgkey=http://mirrors.nipa.cloud/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=https://mirrors.bangmod.cloud/centos/RPM-GPG-KEY-CentOS-7
 
 #contrib - packages by Centos Users
 [contrib]
-name=CentOS-7 - Contrib - mirrors.nipa.cloud
+name=CentOS-7 - Contrib - mirrors.bangmod.cloud
 failovermethod=priority
-baseurl=http://mirrors.nipa.cloud/centos/$releasever/contrib/$basearch/
-        https://mirrors.bangmod.cloud/centos/$releasever/contrib/$basearch/
+baseurl=https://mirrors.bangmod.cloud/centos/$releasever/contrib/$basearch/
 		http://mirror1.ku.ac.th/centos/$releasever/contrib/$basearch/
 		http://mirrors.thzhost.com/centos/$releasever/contrib/$basearch/
 		http://mirrors.psu.ac.th/pub/centos/$releasever/contrib/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=contrib
 gpgcheck=1
 enabled=0
-gpgkey=http://mirrors.nipa.cloud/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=https://mirrors.bangmod.cloud/centos/RPM-GPG-KEY-CentOS-7
